@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+		<style>
+			.centered {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				margin-top: -180px;
+				margin-left: -150px;
+			}
+			
+			form {
+				margin-left: -110px;
+			}
+			
+			input {
+				position: relative;
+			}
+			
+			input[type=submit] {
+				border-radius: 10px;
+				right: 50%;
+				top: 60px;
+				width: 150px;
+				height: 25px;
+				text-align: center;
+				border: 0;
+			}
+			
+			input[type=text] {
+				border-radius: 20px;	
+				top: 10px;
+				height: 30px;
+				border: 1px solid gray;
+				text-indent: 10px;
+				outline: none;
+			}	
+		</style>
+    </head>
+    <body class='centered'>
+		<img src="logo.png" alt="Google">
+        <form action="https://google.com/search">
+            <input type="text" name="q" size="66">
+            <input type="submit" name="btnK" value="Google Search">
+			<input type="submit" name="btnI" value="I'm feeling lucky">
+        </form>
+    </body>
+</html>
